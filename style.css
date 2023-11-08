@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+
+th, td {
+    padding: 2rem;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: rgb(30, 156, 210);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
